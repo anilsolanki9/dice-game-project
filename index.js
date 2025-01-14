@@ -11,7 +11,9 @@ function throwDice() {
 	var randomImage1Source = "./images/dice" + firstValue + ".png";
 	var randomImage2Source = "./images/dice" + secondValue + ".png";
 	document.querySelector(".first").setAttribute("src", randomImage1Source);
+	document.querySelector(".playerOne").textContent = "Player 1 (" + firstValue + ")";
 	document.querySelector(".second").setAttribute("src", randomImage2Source);
+	document.querySelector(".playerOne").textContent = "Player 1 (" + secondValue + ")";
 	if (firstValue>secondValue) {
 		document.querySelector("h1").textContent = "👍🎉Player 1   Wins👎";
 	}
