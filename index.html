@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Dice Game</title>
+		<link rel="icon" href="./images/dice5.png">
+		<link rel="stylesheet" href="./styles.css">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap"
+			rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Delius+Unicase&display=swap"
+			rel="stylesheet">
+
+	</head>
+	<body>
+		<div class="flex-container">
+			<div class="header"><h1>Play Now</h1></div>
+			<div class="btn-div"><input id="myButton" type="button" onclick="throwDice()" value="Throw The Dice">
+			<audio id="clickSound" src="./music/dicerole.mp3"></audio>
+			</input></div>
+			<div class="cards">
+				<div class="card1 flex-card">
+					<h2 class="playerOne">Player 1</h2>
+					<img class="first image" src="images/dice6.png"
+						alt="player 1 dice image">
+				</div>
+				<div class="card2 flex-card">
+					<h2 class="playerTwo">Player 2</h2>
+					<img class="second image" src="images/dice6.png"
+						alt="player 1 dice image">
+				</div>
+			</div>
+			<footer>
+				&copy;All COPYRIGHTS Reserved<br>🎲www.anilsolanki.com🎲
+			</footer>
+		</div>
+		<script src="./index.js"></script>
+	</body>
+</html>
+<!--  backgrounf-color #727D73 -->
+<!-- text lines #A888B5 -->
+<!-- winner text FFD65A -->
+<!-- te text before 
+	Refresh Me
+	👍Player 1 Wins👎    🎉👍👎
+	Player 2 Wins 
+	Draw!!
+🎲
+
+	-->
